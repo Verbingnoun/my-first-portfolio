@@ -5,35 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexstyle.css">
 </head>
-<body>
-    <!-- Menu Bars - use in mobile viewports -->
-    <ion-icon name="menu"></ion-icon>
+<body id="body-home">
+    <div id="page-container">
+        <div id="content-wrap">
 
-    <!-- background image - 1200-1800 -->
-    <img id="home-bg" src="src/1200-1800-homebg.jpeg">
-    
-    <!-- Nav Menu - use in larger viewports -->
-    <nav>
-        <section>Home</section>
-        <section>About</section>
-        <section>Resume</section>
-        <section>Socials</section>
-        <section>Blog</section>
-    </nav>
-    <div>
-        <!-- Pretty box around text -->
-        <h1>Hello!</h1>
-        <p>My name is Josh Stephenson and I am a software developer in training with Coder Academy!</p>
 
-        <p>Come and see what I'm working on</p> 
-    </div>
-    
+            <nav role="navigation">
+                <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+      
+        <ul id="menu">
+            <a href="indexstyle.css"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="social.html"><li>Socials</li></a>
+            <a href="resume.html"><li>Resume</li></a>
+            <a href="blog.html"><li>Blog</li></a>
+        </ul>
+        </div>
+        </nav>
+        
+        <section id="welcome">
+            <h1 id="Hello">Hello!</h1>
+            <div id="welcome-text">
+                My name is <span id="name">Josh Stephenson</span> and I am a software developer in training with Coder Academy</div>
 
-    <footer>
+            <div id="welcome-bottom">Come see what I am working on<div>
+        </section>
+
+        </div>
+
+    <footer id="footer">
         Josh Stephenson&copy;
     </footer>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        
+    </div>    
 </body>
 </html>
