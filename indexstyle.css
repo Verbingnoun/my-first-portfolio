@@ -1,10 +1,4 @@
 
-/* for tablets */
-@media only screen and (max-width: 600px) {
-    #menuToggle {display: none;}
-}
-
-
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -12,6 +6,28 @@
 
 #content-wrap {
     padding-bottom: 2.5rem;
+}
+
+.tabletnav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around
+
+}
+
+.navbut {
+    font-size: 1rem;
+    background-color: tomato;
+    color: white;
+    border-color: 6px solid black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
 
 
@@ -32,7 +48,7 @@
  }
 
  #welcome {
-     height: 100vmax;
+     height: 100%;
      width: 100%;
      font-size: 2em;
      text-align: center;
@@ -43,7 +59,7 @@
  }
 
  #welcome-bottom {
-     margin-top: 50px;
+     padding-top: 50px
  }
 
  #name {
@@ -152,7 +168,7 @@
    padding: 50px;
    padding-top: 125px;
    
-   background: #ededed70;
+   background: #edededd5;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    
@@ -180,3 +196,9 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.61);
  }
+
+ /* for tablets */
+@media only screen and (min-width: 600px) {
+    #menuToggle {display: none;}
+    #Hello {color: red;}
+}
