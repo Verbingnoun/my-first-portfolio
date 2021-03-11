@@ -1,8 +1,11 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+
+
+h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    top: 0px;
 }
 
 nav [role="navigation"] {
@@ -11,6 +14,7 @@ nav [role="navigation"] {
 }
 
 .navbar {
+    background-color: black;
     width: 100vw;
     position: fixed;
     top: 0px;
@@ -18,10 +22,11 @@ nav [role="navigation"] {
     flex-direction: row;
     justify-content: space-around;
     border-bottom: 1pt solid white;
+    margin-left: 0;
+    margin-bottom: 3pt
 }
 
 .navbar div {
-    border: 1px solid black;
     width: 20%;
     text-align: center;
     padding-bottom: 1em;
@@ -34,7 +39,7 @@ nav [role="navigation"] {
 
 a {
     text-decoration: none;
-    color: tomato;
+    color: rgb(114, 185, 86);
 }
 
 
@@ -61,7 +66,7 @@ a {
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: rgb(114, 185, 86);
 }
 
 
@@ -173,6 +178,7 @@ a {
     color: white;
     position: fixed;
     bottom: 0;
+    background-color: black;
 }
 
 .socials_icon {
@@ -180,4 +186,12 @@ a {
 }
 
 
+/* tablet media */
+@media only screen and (min-width: 600px) {
+    #menuToggle {display: none;}
+}
 
+@media only screen and (max-width: 600px) {
+    .navbar {display: none;}
+    
+}

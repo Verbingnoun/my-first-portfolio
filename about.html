@@ -4,55 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="indexstyle.css">
+    <title>About</title>
+    <link rel="stylesheet" href="global-style.css">
+    <link rel="stylesheet" href="aboutstyle.css">
 </head>
-<body id="body">
+<body>
     <!-- hamburger nav -->
     <nav role="navigation">
         <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+    <h1>Blog</h1>
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="social.html"><li>Socials</li></a>
+                <a href="resume.html"><li>Resume</li></a>
+                <a href="blog.html"><li>Blog</li></a>
+            </ul>
+        </div>
+    </nav>
 
-<ul id="menu">
-    <a href="index.html"><li>Home</li></a>
-    <a href="about.html"><li>About</li></a>
-    <a href="social.html"><li>Socials</li></a>
-    <a href="resume.html"><li>Resume</li></a>
-    <a href="blog.html"><li>Blog</li></a>
-</ul>
-</div>
-</nav>
-    
-    <h1 id="about">ABOUT</h1>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="about.html">About</a></div>
+        <div><a href="resume.html">Resume</a></div>
+        <div><a href="blog.html">Blog</a></div>
+    </nav>
 
-    
+    <div class="aboutFlex">
+        <h1>Who am I?</h1>
+        <div>
+            <img id="me" src="src/me.jpeg" alt="picture of josh stephenson">
+        </div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quasi iusto sequi incidunt. Expedita repellendus temporibus at iusto explicabo nesciunt!</div>
 
-    <!-- Create Bar chart for skillset. how? -->
-    
-    <!-- Cool picture of me -->
+        <h3>Currently learning</h3>
+        <div class="iconContainer">
+            <ion-icon name="logo-nodejs" class="techIcon"></ion-icon>
+            <ion-icon name="logo-css3" class="techIcon"></ion-icon>
+            <ion-icon name="logo-python" class="techIcon"></ion-icon>
+        </div>
 
-    <!-- My values as developer -->
-    <section class="value_grid">
-        <section class="shapes">
-            <div class="value_shape">1</div>
-            <div class="value_shape">2</div>
-            <div class="value_shape">3</div>
-            <div class="value_shape">4</div>
-        </section>
-        <section class="values">
-            <div id="value_1" class="value">Responsive</div>
-            <div id="value_2" class="value"> Secure</div>
-            <div id="value_3" class="value">Simple</div>
-            <div id="value_4" class="value">On Time</div>
-        </section>
+        
 
-    </section>
+    </div>
 
-    <footer>
-        Josh Stephenson&copy;
-    </footer> 
+    <footer class="footer">
+        <ion-icon name="logo-github" class="socials_icon"></ion-icon>
+        <ion-icon name="logo-linkedin" class="socials_icon"></ion-icon>
+        <ion-icon name="logo-facebook" class="socials_icon"></ion-icon>
+        <div>&copyJosh Stephenson 2021<div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 
 </body>
 </html>

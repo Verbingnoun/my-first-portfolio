@@ -2,6 +2,11 @@
     background: url(src/space_background_portfolio.jpeg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
 }
 
 .home_container {
@@ -21,7 +26,7 @@
 }
 
 #home_name {
-    color: tomato;
+    color: rgb(114, 185, 86);
 }
 
   /* desktop media */

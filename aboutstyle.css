@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(44, 41, 41);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.aboutFlex {
+    color: white;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.aboutFlex h1 {
+    font-size: 30pt;
+    text-decoration: underline;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.aboutFlex div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    text-align: center;
+}
+
+.aboutFlex img {
+    width: 100vw;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.techIcon {
+    font-size: 50pt;
+    border: 3pt solid green;
+    border-radius: 50%;
+    background-color: green;
+
+}
+
+.techIcon:hover {
+    animation: changeColor 1s forwards;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+#me {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes changeColor {
+    0% {background-color: green;}
+    0% {border-color: green;}
+
+    100% {background-color: tomato;}
+    100% {border-color: tomato;}
+    
+}
