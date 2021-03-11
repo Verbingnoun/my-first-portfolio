@@ -36,6 +36,8 @@ body {
 
 .aboutFlex img {
     width: 100vw;
+    height: auto;
+    
 }
 
 .iconContainer {
@@ -67,13 +69,15 @@ h3 {
 
 
 
-
-
 #me {
-    border-radius: 50%;
     height: 200px;
     width: 200px;
+    
 }
+
+
+ 
+
 
 @keyframes changeColor {
     0% {background-color: green;}

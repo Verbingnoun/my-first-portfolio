@@ -14,16 +14,15 @@ nav [role="navigation"] {
 }
 
 .navbar {
-    background-color: black;
     width: 100vw;
     position: fixed;
     top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 1pt solid white;
     margin-left: 0;
-    margin-bottom: 3pt
+    margin-bottom: 3pt;
+    z-index: 3;
 }
 
 .navbar div {
@@ -179,10 +178,12 @@ a {
     position: fixed;
     bottom: 0;
     background-color: black;
+
 }
 
 .socials_icon {
     font-size: 2rem;
+
 }
 
 

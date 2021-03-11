@@ -5,19 +5,27 @@ body {
 }
 
 .blogHeading {
-    margin-top: 10%;
+    margin-top: 10%
 }
 
 .blogContainer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50vh;
+
 }
 
-.blogcontainer img {
-    width: 200px;
-    height: 200px;
+.blogContainer img {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 
 .blogPostText {
+    width: 400px;
     color: white;
     border: 1px solid white;
     margin-left: 20px;
