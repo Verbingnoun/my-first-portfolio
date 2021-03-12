@@ -1,5 +1,5 @@
 #bodyBlog {
-    background-image: url(src/rock-bg.jpeg);
+    background-image: url(../images/rock-bg.jpeg);
     background-repeat: repeat;
     background-size: cover;
 }

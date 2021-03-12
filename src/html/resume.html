@@ -10,7 +10,7 @@
 </head>
 <body id="bodyResume">
 
-
+<!-- nav for tablet + desktop -->
     <nav class="navbar">
         <div><a href="index.html">Home</a></div>
         <div><a href="about.html">About</a></div>
@@ -21,7 +21,7 @@
    
 
     <!-- hamburger nav -->
-    <nav role="navigation">
+    <nav class="burgerNav">
         <div id="menuToggle">
             <input type="checkbox" />
             <span></span>
@@ -30,24 +30,25 @@
             
             
             <ul id="menu">
-                <a href="index.html"><li>Home</li></a>
-                <a href="about.html"><li>About</li></a>
-                <a href="social.html"><li>Socials</li></a>
-                <a href="resume.html"><li>Resume</li></a>
-                <a href="blog.html"><li>Blog</li></a>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../html/resume.html">Resume</a></li>
+                <li><a href="../html/blog.html">Blog</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- content start -->
+
     <h1>Resume</h1>
 
-    <article class="resumeDownload">
+    <div class="resumeDownload">
         Click <span>here</span> to download a PDF copy of my resume!
-    </article>
+    </div>
 
     <div class="resumeWrapper">
 
-        <section class="workHistory">
+        <section class="workHistory" class="resumeContainer">
             <h2>Work History</h2>
             <ul>
                 <li>Correctional Officer -Wolston Correctional Facility (2 years)</li>
@@ -55,7 +56,7 @@
             </ul>
         </section>
 
-        <section class="hardSkills">
+        <section class="hardSkills" class="resumeContainer">
             <h2>Hard Skills</h2>
             <ul>
                 <li>HTML</li>
@@ -67,7 +68,7 @@
 
         </section>
 
-        <section class="softSkills">
+        <section class="softSkills" class="resumeContainer">
             <h2>Soft Skills</h2>
             <ul>
                 <li>Communication</li>
@@ -78,7 +79,7 @@
             </ul>
         </section>
 
-        <section class="education">
+        <section class="education" class="resumeContainer">
             <h2>Education</h2>
             <ul>
                 <li>Diploma of Information Technolgy - Coder Academy (ongoing)</li>
@@ -90,6 +91,8 @@
 
     </div>
 
+    <!-- footer -->
+
     <footer class="footer">
         <a href="https://github.com/Verbingnoun" target="blank"><ion-icon name="logo-github" class="socials_icon"></ion-icon></a>
 
@@ -98,8 +101,10 @@
 
 
         <a href="https://www.facebook.com/josh.stephenson.391/" target="blank"><ion-icon name="logo-facebook" class="socials_icon"></ion-icon></a>
-        <span>&copyJosh Stephenson 2021</span>
+        <span>&copy;Josh Stephenson 2021</span>
     </footer>
+
+<!-- icon script -->
 
 
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 

@@ -1,5 +1,5 @@
 #bodyResume {
-    background-image: url(src/rock-bg.jpeg);
+    background-image: url(../images/rock-bg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -52,11 +52,13 @@ h2 {
 
 }
 
+
+
+
 .workHistory {
     width: 300px;
     background-color: rgb(64, 65, 63);
     border: 2pt solid white;
-    box-shadow: white;
     margin: 20px;
 }
 
