@@ -1,4 +1,8 @@
+body {
+  background-color: rgb(44, 41, 41);
+  margin: 0px;
 
+}
 
 h1 {
     color: white;
@@ -8,12 +12,16 @@ h1 {
     top: 0px;
 }
 
+
+
 nav [role="navigation"] {
     position: fixed;
     top: 0;
 }
 
 .navbar {
+    background-color: rgb(64, 65, 63);
+    border-bottom: 1pt solid white;
     width: 100vw;
     position: fixed;
     top: 0px;
@@ -25,8 +33,9 @@ nav [role="navigation"] {
     z-index: 3;
 }
 
-.navbar div {
-    width: 20%;
+.navbar div, 
+.navbar a {
+    width: 25%;
     text-align: center;
     padding-bottom: 1em;
     padding-top: 1em;
@@ -34,7 +43,15 @@ nav [role="navigation"] {
     font-size: 16pt;
     color: blanchedalmond;
     text-decoration: none;
+    transition: 0.5s;
 }
+
+.navbar div:hover,
+.navbar a:hover {
+  background-color: black;
+}
+
+
 
 a {
     text-decoration: none;
@@ -49,7 +66,11 @@ a {
   display: block;
   position: fixed;
   top: 15px;
-  left: 30px;
+  left: 15px;
+  margin-right: 3%;
+  background-color: black;
+  border: 1px solid black;
+  padding: 3px;
   
   z-index: 1;
   
@@ -95,7 +116,7 @@ a {
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background:rgb(114, 185, 86);
   border-radius: 3px;
   
   z-index: 1;
@@ -181,10 +202,20 @@ a {
 
 }
 
+
+
 .socials_icon {
     font-size: 2rem;
+    color: green;
 
 }
+
+.socials_icon:hover {
+  color: tomato;
+  transition: 0.5s;
+}
+
+
 
 
 /* tablet media */

@@ -1,0 +1,85 @@
+#bodyResume {
+    background-image: url(src/rock-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: rgb(44, 41, 41);
+    margin: 0px;
+
+}
+
+h1 {
+    color: white;
+    margin-top: 10vh;
+    font-size: 36pt
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 28pt;
+}
+
+
+.resumeDownload{
+    color:white;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+
+.resumeDownload span {
+    color: rgb(114, 185, 86);
+
+}
+
+.resumeWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+    margin-bottom: 10%;
+}
+
+
+.resumeWrapper > * {
+    color: white;
+
+}
+
+.workHistory {
+    width: 300px;
+    background-color: rgb(64, 65, 63);
+    border: 2pt solid white;
+    box-shadow: white;
+    margin: 20px;
+}
+
+
+.hardSkills {
+    width: 300px;
+    background-color: rgb(64, 65, 63);
+    border: 2pt solid white;
+    margin: 20px;
+}
+
+.softSkills {
+    width: 300px;
+    background-color: rgb(64, 65, 63);
+    border: 2pt solid white;
+    margin: 20px;
+
+}
+
+.education {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: rgb(64, 65, 63);
+    border: 2pt solid white;
+    margin: 20px;
+}

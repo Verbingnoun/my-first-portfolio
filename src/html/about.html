@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="global-style.css">
     <link rel="stylesheet" href="aboutstyle.css">
 </head>
-<body>
+<body id="bodyAbout">
     <!-- hamburger nav -->
     <nav role="navigation">
         <div id="menuToggle">
@@ -21,7 +21,6 @@
             <ul id="menu">
                 <a href="index.html"><li>Home</li></a>
                 <a href="about.html"><li>About</li></a>
-                <a href="social.html"><li>Socials</li></a>
                 <a href="resume.html"><li>Resume</li></a>
                 <a href="blog.html"><li>Blog</li></a>
             </ul>
@@ -30,10 +29,10 @@
 
     <!-- nav bar -->
     <nav class="navbar">
-        <div><a href="index.html">Home</a></div>
-        <div><a href="about.html">About</a></div>
-        <div><a href="resume.html">Resume</a></div>
-        <div><a href="blog.html">Blog</a></div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="blog.html">Blog</a>
     </nav>
 
     <h1>Who am I?</h1>
@@ -42,8 +41,8 @@
 
         <div class="meContainer">
             <img id="me" src="src/me.jpeg" alt="picture of josh stephenson">
-
         </div>    
+        
         <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quasi iusto sequi incidunt. Expedita repellendus temporibus at iusto explicabo nesciunt!</div>
 
         <h3>Currently learning</h3>
@@ -58,9 +57,13 @@
     </div>
 
     <footer class="footer">
-        <ion-icon name="logo-github" class="socials_icon"></ion-icon>
-        <ion-icon name="logo-linkedin" class="socials_icon"></ion-icon>
-        <ion-icon name="logo-facebook" class="socials_icon"></ion-icon>
+        <a href="https://github.com/Verbingnoun" target="blank"><ion-icon name="logo-github" class="socials_icon"></ion-icon></a>
+
+
+        <a href="https://www.linkedin.com/in/josh-stephenson-499b35208/" target="blank" ><ion-icon name="logo-linkedin" class="socials_icon"></ion-icon></a>
+
+
+        <a href="https://www.facebook.com/josh.stephenson.391/" target="blank"><ion-icon name="logo-facebook" class="socials_icon"></ion-icon></a>
         <span>&copyJosh Stephenson 2021</span>
     </footer>
 
