@@ -14,7 +14,7 @@ h1 {
 
 
 
-nav [role="navigation"] {
+.burgerNav {
     position: fixed;
     top: 0;
 }
@@ -104,7 +104,6 @@ a {
   opacity: 0;
   z-index: 2;
   
-  -webkit-touch-callout: none;
 }
 
 
@@ -168,9 +167,7 @@ a {
   padding-top: 125px;
   
   background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  
+  list-style-type: none;  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
