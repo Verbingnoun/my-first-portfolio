@@ -47,40 +47,9 @@ h2 {
 }
 
 
-.resumeWrapper > * {
+.resumeWrapper section {
     color: white;
-
-}
-
-
-
-
-.workHistory {
     width: 300px;
-    background-color: rgb(64, 65, 63);
-    border: 2pt solid white;
-    margin: 20px;
-}
-
-
-.hardSkills {
-    width: 300px;
-    background-color: rgb(64, 65, 63);
-    border: 2pt solid white;
-    margin: 20px;
-}
-
-.softSkills {
-    width: 300px;
-    background-color: rgb(64, 65, 63);
-    border: 2pt solid white;
-    margin: 20px;
-
-}
-
-.education {
-    width: 300px;
-    margin-bottom: 20px;
     background-color: rgb(64, 65, 63);
     border: 2pt solid white;
     margin: 20px;
