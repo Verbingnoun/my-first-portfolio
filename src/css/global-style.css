@@ -212,11 +212,28 @@ a {
   transition: 0.5s;
 }
 
+/* screen reader only */
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* to hide text from hidden mobile checkbox used in hamburger menu */
+
+label {
+  display: none;
+}
 
 
 /* tablet and larger media */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 720px) {
     #menuToggle {display: none;}
 }
 

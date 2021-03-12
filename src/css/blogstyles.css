@@ -20,7 +20,8 @@ body {
 }
 
 .blogLink {
-    color: rgb(114, 185, 86);
+    color: rgb(143, 231, 108);
+    font-weight: bold;
 }
 
 .blogContainer {
