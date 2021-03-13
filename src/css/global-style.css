@@ -1,3 +1,5 @@
+/* global background color */
+
 body {
   background-color: rgb(44, 41, 41);
   margin: 0px;
@@ -14,10 +16,7 @@ h1 {
 
 
 
-.burgerNav {
-    position: fixed;
-    top: 0;
-}
+/* Navbar at top of screen */
 
 .navbar {
     background-color: rgb(64, 65, 63);
@@ -60,6 +59,11 @@ a {
 
 
 /* Hamburger Menu */
+
+.burgerNav {
+  position: fixed;
+  top: 0;
+}
 
 #menuToggle
 {
@@ -186,6 +190,8 @@ a {
 }
 
 
+/* footer */
+
 .footer {
     border-top: 1pt solid white;
     width: 100vw;
@@ -231,11 +237,18 @@ label {
   display: none;
 }
 
+@media only screen and (min-width: 1000px) {
+  .navbar div {
+    font-size: 18pt;
+  }
+}
 
 /* tablet and larger media */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 600px) {
     #menuToggle {display: none;}
 }
+
+/* hides navbar when hamburger menu shows */
 
 @media only screen and (max-width: 600px) {
     .navbar {display: none;}
