@@ -59,15 +59,18 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    min-height: 10em;
+
 }
 
 /* tech icons with hover effect */
 
 .techIcon {
-    font-size: 50pt;
+    font-size: 40pt;
     border: 3pt solid green;
     border-radius: 50%;
     background-color: green;
+    margin-bottom: 2em;
 
 }
 

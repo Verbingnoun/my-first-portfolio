@@ -25,7 +25,7 @@ h1 {
 /* Navbar at top of screen */
 
 .navbar {
-    background-color: rgb(64, 65, 63);
+    background-color: rgba(64, 65, 63, 0.514);
     border-bottom: 1pt solid white;
     width: 100vw;
     position: fixed;
