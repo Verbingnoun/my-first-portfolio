@@ -18,6 +18,7 @@ h1 {
     text-align: center;
     width: 100vw;
     top: 0px;
+    z-index: -1;
 }
 
 
@@ -25,7 +26,7 @@ h1 {
 /* Navbar at top of screen */
 
 .navbar {
-    background-color: rgba(64, 65, 63, 0.514);
+    background-color: rgba(64, 65, 63, 0.781);
     border-bottom: 1pt solid white;
     width: 100vw;
     position: fixed;
@@ -82,7 +83,7 @@ a {
   border: 1px solid black;
   padding: 3px;
   
-  z-index: 1;
+  z-index: 5;
   
 }
 
@@ -112,7 +113,7 @@ a {
   cursor: pointer;
   
   opacity: 0;
-  z-index: 2;
+  z-index: 5;
   
 }
 
